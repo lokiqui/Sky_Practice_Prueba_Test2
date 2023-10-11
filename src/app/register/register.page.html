@@ -1,0 +1,33 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Pagina de Registro</ion-title>
+    <ion-back-button slot="start"></ion-back-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+
+
+
+  <div id="container">
+
+    <h2>Registre su Cuenta</h2>
+
+    <ion-item lines="none">
+      <ion-input label="Email:" labelPlacement="stacked" [clearOnEdit]="true" placeholder="Ingrese email" [(ngModel)]="email">
+      </ion-input>
+    </ion-item>
+
+    <ion-item lines="none">
+      <ion-input label="Password" labelPlacement="stacked" type="password" placeholder="Registre password" [(ngModel)]="password">
+      </ion-input>
+    </ion-item>
+
+    <ion-button (click)="register()" shape="round" size="small">Register</ion-button>
+
+  </div>
+
+
+
+</ion-content>

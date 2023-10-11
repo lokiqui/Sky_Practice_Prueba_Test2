@@ -1,0 +1,35 @@
+<!-- <ion-header>
+  <ion-toolbar>
+    <ion-title>login</ion-title>
+  </ion-toolbar>
+</ion-header> -->
+
+<ion-content fullscreen="true">
+
+  <ion-img
+    src="https://png.pngtree.com/png-vector/20191003/ourmid/pngtree-user-login-or-authenticate-icon-on-gray-background-flat-icon-ve-png-image_1786166.jpg"
+    alt="Pagina de Logueo Sky Practice"></ion-img>
+
+
+  <div id="container">
+
+    <ion-item lines="none">
+      <ion-input label="Email:" labelPlacement="stacked" [clearOnEdit]="true" placeholder="Ingrese email" [(ngModel)]="email">
+      </ion-input>
+    </ion-item>
+
+    <ion-item lines="none">
+      <ion-input label="Password" labelPlacement="stacked" type="password" placeholder="Ingrese  password" [(ngModel)]="password">
+      </ion-input>
+    </ion-item>
+
+    <ion-button (click)="login(email, password)" shape="round" size="small">Login</ion-button>
+
+    <ion-item class="Boton de Registro" lines="none" color="none">
+      <p (click)="register()">Registro</p>
+    </ion-item>
+  </div>
+
+
+
+</ion-content>

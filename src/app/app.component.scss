@@ -1,0 +1,15 @@
+#container {
+    background: url('https://png.pngtree.com/png-vector/20191003/ourmid/pngtree-user-login-or-authenticate-icon-on-gray-background-flat-icon-ve-png-image_1786166.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh; /* Ajusta la altura de acuerdo a tus necesidades */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #container p {
+    color: white; /* Color del texto */
+    font-size: 24px; /* Tamaño del texto */
+  }
+  
